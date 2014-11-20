@@ -25,4 +25,11 @@ public class FibonacciNumbersReturnTest {
 		assertEquals("1", fibonacci.returnFibonacciNumbersTo(2));
 	}
 
+	@Test
+	// Test the third fibonacci number
+	public void testFibonacciNumberToThree() throws Exception {
+		Fibonacci fibonacci = new Fibonacci();
+		assertEquals("2", fibonacci.returnFibonacciNumbersTo(3));
+	}
+
 }
