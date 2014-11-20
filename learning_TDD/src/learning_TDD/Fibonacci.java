@@ -11,7 +11,11 @@ public class Fibonacci {
 	 */
 	public String returnFibonacciNumbersTo(int i) {
 		// TODO Auto-generated method stub
-		return "1";
+		if (i == 1) {
+			return "1";
+		} else
+			return "1";
+
 	}
 
 }
