@@ -9,7 +9,7 @@ public class Fibonacci {
 	 *            generate fibonacci numbers from 1 to i
 	 * @return String with generated fibonacci numbers
 	 */
-	public String generatorFibonacciNumbersTo(int i) {
+	public String returnFibonacciNumbersTo(int i) {
 		// TODO Auto-generated method stub
 		return "1";
 	}
