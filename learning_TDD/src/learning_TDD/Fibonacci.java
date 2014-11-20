@@ -3,11 +3,11 @@ package learning_TDD;
 public class Fibonacci {
 
 	/**
-	 * Generate prime number to i using fibonacci
-	 * @param i generate prime numbers from 1 to i
-	 * @return String with generated prime numbers
+	 * Generate fibonacci number to i using
+	 * @param i generate fibonacci numbers from 1 to i
+	 * @return String with generated fibonacci numbers
 	 */
-	public Object generatorPrimeNumbersto(int i) {
+	public Object generatorFibonacciNumbersto(int i) {
 		// TODO Auto-generated method stub
 		return null;
 	}
