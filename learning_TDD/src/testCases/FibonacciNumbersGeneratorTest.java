@@ -15,7 +15,13 @@ public class FibonacciNumbersGeneratorTest {
 	// Test the first fibonacci number
 	public void testFibonacciNumberToOne() throws Exception {
 		Fibonacci fibonacci = new Fibonacci();
-		assertEquals('1', fibonacci.generatorFibonacciNumbersTo(1));
+		assertEquals("1", fibonacci.generatorFibonacciNumbersTo(1));
+	}
+
+	// Test the second fibonacci number
+	public void testFibonacciNumberToTwo() throws Exception {
+		Fibonacci fibonacci = new Fibonacci();
+		assertEquals("1, 1", fibonacci.generatorFibonacciNumbersTo(2));
 	}
 
 }
